@@ -1,0 +1,242 @@
+object Form1: TForm1
+  Left = 881
+  Height = 205
+  Top = 145
+  Width = 308
+  Caption = 'Calculate'
+  ClientHeight = 205
+  ClientWidth = 308
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -21
+  Font.Name = 'Segoe UI'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 33
+    Top = 8
+    Width = 136
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnKeyDown = Edit1KeyDown
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit3: TEdit
+    Left = 16
+    Height = 40
+    Top = 56
+    Width = 88
+    AutoSize = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnKeyDown = Edit3KeyDown
+    OnKeyUp = Edit3KeyUp
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object mul: TButton
+    Left = 112
+    Height = 40
+    Top = 56
+    Width = 40
+    Caption = '*'
+    OnClick = mulClick
+    OnKeyDown = mulKeyDown
+    TabOrder = 2
+  end
+  object div1: TButton
+    Left = 160
+    Height = 40
+    Top = 56
+    Width = 40
+    Caption = '/'
+    OnClick = div1Click
+    OnKeyDown = div1KeyDown
+    TabOrder = 3
+  end
+  object sub: TButton
+    Left = 208
+    Height = 40
+    Top = 56
+    Width = 40
+    Caption = '-'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = subClick
+    OnKeyDown = subKeyDown
+    ParentFont = False
+    TabOrder = 4
+  end
+  object plus: TButton
+    Left = 256
+    Height = 40
+    Top = 56
+    Width = 40
+    Caption = '+'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = plusClick
+    OnKeyDown = plusKeyDown
+    ParentFont = False
+    TabOrder = 5
+  end
+  object B1: TButton
+    Left = 16
+    Height = 40
+    Top = 104
+    Width = 40
+    Caption = '1'
+    OnClick = B1Click
+    OnKeyDown = B1KeyDown
+    TabOrder = 6
+  end
+  object B2: TButton
+    Left = 64
+    Height = 40
+    Top = 104
+    Width = 40
+    Caption = '2'
+    OnClick = B2Click
+    OnKeyDown = B2KeyDown
+    TabOrder = 7
+  end
+  object B3: TButton
+    Left = 112
+    Height = 40
+    Top = 104
+    Width = 40
+    Caption = '3'
+    OnClick = B3Click
+    OnKeyDown = B3KeyDown
+    TabOrder = 8
+  end
+  object B4: TButton
+    Left = 160
+    Height = 40
+    Top = 104
+    Width = 40
+    Caption = '4'
+    OnClick = B4Click
+    OnKeyDown = B4KeyDown
+    TabOrder = 9
+  end
+  object B5: TButton
+    Left = 208
+    Height = 40
+    Top = 104
+    Width = 40
+    Caption = '5'
+    OnClick = B5Click
+    OnKeyDown = B5KeyDown
+    TabOrder = 10
+  end
+  object clear01: TButton
+    Left = 256
+    Height = 40
+    Top = 104
+    Width = 40
+    Caption = 'CL'
+    OnClick = clear01Click
+    OnKeyDown = clear01KeyDown
+    OnKeyUp = clear01KeyUp
+    TabOrder = 11
+  end
+  object B6: TButton
+    Left = 16
+    Height = 40
+    Top = 152
+    Width = 40
+    Caption = '6'
+    OnClick = B6Click
+    OnKeyDown = B6KeyDown
+    TabOrder = 12
+  end
+  object B7: TButton
+    Left = 64
+    Height = 40
+    Top = 152
+    Width = 40
+    Caption = '7'
+    OnClick = B7Click
+    OnKeyDown = B7KeyDown
+    TabOrder = 13
+  end
+  object B8: TButton
+    Left = 112
+    Height = 40
+    Top = 152
+    Width = 40
+    Caption = '8'
+    OnClick = B8Click
+    OnKeyDown = B8KeyDown
+    TabOrder = 14
+  end
+  object B9: TButton
+    Left = 160
+    Height = 40
+    Top = 152
+    Width = 40
+    Caption = '9'
+    OnClick = B9Click
+    OnKeyDown = B9KeyDown
+    TabOrder = 15
+  end
+  object B0: TButton
+    Left = 208
+    Height = 40
+    Top = 152
+    Width = 40
+    Caption = '0'
+    OnClick = B0Click
+    OnKeyDown = B0KeyDown
+    TabOrder = 16
+  end
+  object Edit2: TEdit
+    Left = 160
+    Height = 33
+    Top = 8
+    Width = 136
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnKeyDown = Edit2KeyDown
+    ParentFont = False
+    TabOrder = 17
+  end
+  object BitBtn1: TBitBtn
+    Left = 256
+    Height = 40
+    Top = 152
+    Width = 40
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    OnKeyDown = BitBtn1KeyDown
+    OnKeyUp = BitBtn1KeyUp
+    TabOrder = 18
+  end
+end
