@@ -1,1 +1,2 @@
-unit1.pas --> code
+code --> unit1.pas
+Program --> Calculator.exe 
