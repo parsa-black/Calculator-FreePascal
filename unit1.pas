@@ -1,3 +1,4 @@
+{code by parsa.black}
 unit Unit1;
 
 {$mode objfpc}{$H+}
